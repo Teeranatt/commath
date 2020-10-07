@@ -14,7 +14,7 @@ app = FastAPI() # FlaskApp()
 
 @app.get("/")
 def hello():
-    return {"Hello": "World"}
+    return "สวัสดีครับ"
 
 @app.get("/b2i")
 def bit2int():
